@@ -87,19 +87,64 @@ main {
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
     border-radius: 5px;
-    padding: 20px;
+    padding: 20px 30px;
 }
 
-section {
+section#historia     {
     min-width: 300px;
-    max-width: 450px;
+    max-width: 500px;
+    min-height: 500px;
     text-align: justify;
-    background-color: var(--cor0);
-    padding: 15px;
+    background-color: rgba(211, 211, 211, 0.766);
+    padding: 0px 20px;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.492);
-    margin-top: 40px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.488);
+    margin-top: 20px;
    
+}
+section h1 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.501);
+    font-variant: small-caps;
+    padding: 10px 30px;
+    margin: 0px -20px;
+    color: white;
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+#historia p {
+    font-family: var(--fonte-destaque);
+    padding: 10px 0px;
+    color: black;
+    text-indent: 20px;
+     
+}
+
+#historia span {
+    text-align: center;
+}
+
+#historia a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+#historia a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+} 
+
+#historia h2 {
+    background-color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    color: white;
+    padding: 5px;
+    margin: 0px -20px;
+    text-align: center;
 }
 
 footer {
