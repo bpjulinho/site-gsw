@@ -70,27 +70,37 @@ nav > a:hover {
 }
 
 body {
-    background-color: #35285E;
-    background-image: url(../imagens/portao-fruma.png);
+    background-color: black;
+    background-image: url(../imagens/bg_bw.webp);
+    /**
     background-attachment: fixed;
     background-size: cover;
+    **/
     background-position: center center;
 }
 
-main {
+main#guild {
     min-height: 90vh;
-    max-width: 1200px;
+    max-width: 1000px;
     min-width: 500px;
     background-image: url(../imagens/warrior-direita.png);
     background-position: right bottom;
     background-size: cover;
     margin: auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
-    border-radius: 5px;
     padding: 20px 30px;
 }
 
-section#historia     {
+main#guerras {
+    min-height: 90vh;
+    max-width: 1000px;
+    min-width: 500px;
+    background-color: black;
+    margin: 0px auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+}
+
+#historia {
     min-width: 200px;
     max-width: 400px;
     min-height: 500px;
@@ -102,7 +112,7 @@ section#historia     {
     margin-top: 20px;
    
 }
-section h1 {
+#historia h1 {
     text-align: center;
     font-family: var(--fonte-destaque);
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.501);
@@ -123,10 +133,6 @@ section h1 {
      
 }
 
-#historia span {
-    text-align: center;
-}
-
 #historia a {
     color: var(--cor2);
     text-decoration: none;
@@ -143,8 +149,22 @@ section h1 {
     font-variant: small-caps;
     color: white;
     padding: 5px;
-    margin: 0px -20px;
+    margin: 10px -20px;
     text-align: center;
+}
+
+#war-resumo {
+    background-color: var(--cor4);
+    background-image: url(../imagens/torre-basica.png);
+    background-position: bottom right;
+    background-size: cover;
+    height: 300px;
+    max-width: 1000px;
+    min-width: 500px;
+    padding: 20px 20px;
+    border: solid 15px black;
+    
+
 }
 
 footer {
