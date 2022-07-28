@@ -22,8 +22,11 @@
 }
 
 header {
-    min-height: 90px;
-    background-image: radial-gradient(var(--cor0), var(--cor4));
+    min-height: 20vh;
+    background-image: url(../imagens/ragni-header.png);
+    background-position: center center;
+    background-size: cover;
+    /**radial-gradient(var(--cor0), var(--cor4));**/
     font-family: var(--fonte-titulo);
     padding-top: 20px;
     padding: 20px 10px;
@@ -33,7 +36,15 @@ header {
     color: white;
     
 }
-header > h1 {
+
+header > h1#logo {
+    display: block;
+    width: 500;
+    height: 15vh;
+    background-image: url(../imagens/guardian-of-wynn.png);
+    background-size: cover;
+    background-position: center center;
+
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.456);
     padding: 0px;
     margin: 0px;
@@ -46,7 +57,7 @@ header > p {
 }
 nav {
     min-height: 20px;
-    background-color: var(--cor2);
+    background-color: var(--cor4);
     padding: 10px;
     text-align: center;
 }
