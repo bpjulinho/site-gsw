@@ -72,6 +72,7 @@ nav > a:hover {
 body {
     background-color: black;
     background-image: url(../imagens/bg_bw.webp);
+    background-size: 50px 50px;
     /**
     background-attachment: fixed;
     background-size: cover;
