@@ -80,18 +80,6 @@ body {
     background-position: center center;
 }
 
-main#guild {
-    min-height: 90vh;
-    max-width: 1000px;
-    min-width: 500px;
-    background-image: url(../imagens/warrior-direita.png);
-    background-position: right bottom;
-    background-size: cover;
-    margin: auto;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
-    padding: 20px 30px;
-}
-
 main#guerras {
     min-height: 90vh;
     max-width: 1000px;
@@ -99,60 +87,68 @@ main#guerras {
     background-color: black;
     margin: 0px auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
-}
-
-#historia {
-    min-width: 200px;
-    max-width: 400px;
-    min-height: 500px;
-    text-align: justify;
-    background-color: rgba(211, 211, 211, 0.766);
-    padding: 0px 20px;
-    border-radius: 10px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.488);
-    margin-top: 20px;
-   
-}
-#historia h1 {
-    text-align: center;
-    font-family: var(--fonte-destaque);
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.501);
-    font-variant: small-caps;
-    padding: 10px 30px;
-    margin: 0px -20px;
-    color: white;
-    background-color: var(--cor3);
-    border-radius: 10px 10px 0px 0px;
     
 }
 
-#historia p {
+main h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
     font-family: var(--fonte-destaque);
-    padding: 10px 0px;
-    color: black;
-    text-indent: 20px;
-     
+    font-variant: small-caps;
 }
 
-#historia a {
-    color: var(--cor2);
-    text-decoration: none;
+section {
+    display: flex;
+    min-width: 500px;
+    max-width: 1200px;
+    height: 50vh;
+    margin: 0px -20px;
+   
+    background-color: var(--cor0);
+    padding: 10px 10px;    
 }
 
-#historia a:hover {
-    color: var(--cor4);
-    text-decoration: underline;
-} 
+aside {
+    width: 60vh;
+    height: 40vh;
+    text-align: justify;
+    background-color: rgba(211, 211, 211, 0.766);
+    padding: 20px 20px;
+    border-radius: 0px 15px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.488);
+    margin: 10px 30px;
+    
+    /**margin: auto;
+    display: inline-block;
+    width: 45vh;
+    height: 40vh;
+    padding: 20px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);**/
 
-#historia h2 {
-    background-color: var(--cor3);
+}
+
+aside.texto-descritivo {
     font-family: var(--fonte-destaque);
     font-variant: small-caps;
     color: white;
-    padding: 5px;
-    margin: 10px -20px;
-    text-align: center;
+    
 }
+
+aside.video-exemplo {
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    color: white;
+    
+}
+
+
+
+
+
 
 footer {
     min-height: 20px;
