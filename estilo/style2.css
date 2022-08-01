@@ -87,89 +87,9 @@ main#guerras {
     background-color: black;
     margin: 0px auto;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
-    
-}
-
-main h1 {
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-family: var(--fonte-destaque);
-    font-variant: small-caps;
-}
-
-section {
-    display: flex;
-    min-width: 500px;
-    max-width: 1200px;
-    height: 50vh;
-    margin: 0px -20px;
-   
-    background-color: var(--cor0);
-    padding: 10px 10px;    
-}
-
-aside {
-
-    text-align: justify;
-    background-color: rgba(211, 211, 211, 0.766);
-    padding: 20px 20px;
-    border-radius: 0px 15px;
-    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.488);
-    margin: 10px 30px;
-    
-    /**margin: auto;
-    display: inline-block;
-    width: 45vh;
-    height: 40vh;
-    padding: 20px;
-    margin: auto;
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.452);**/
-
-}
-
-aside.texto-descritivo {
-    width: 40vh;
-    height: 40vh;
-    text-align: left;
-    font-family: var(--fonte-destaque);
-    font-variant: small-caps;
     color: white;
     
 }
-
-aside.video-exemplo {
-    width: 60vh;
-    height: 40vh;
-    font-family: var(--fonte-destaque);
-    font-variant: small-caps;
-    color: white;
-    
-}
-
-div.video {
-    background-color: var(--cor5);
-    margin: 0px -20px 30px;
-    padding: 20px;
-    padding-bottom: 59%;
-
-    position: relative;
-}
-
-div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
-
-}
-
-
-
-
 
 
 footer {
