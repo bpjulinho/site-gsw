@@ -28,7 +28,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .menu {
@@ -45,6 +45,7 @@
     padding: 10px;
     background-color: var(--cor0);
     text-decoration: none;
+    color: white;
  }
 
  main#guild {
