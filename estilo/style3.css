@@ -22,7 +22,18 @@
     font-size: 1em;
 }
 
-.header {
+body {
+    background-color: black;
+    background-image: url(../imagens/bg_bw.webp);
+    background-size: 50px 50px;
+    /**
+    background-attachment: fixed;
+    background-size: cover;
+    **/
+    background-position: center center;
+}
+
+header {
     background-color: var(--cor4);
     display: flex;
     flex-wrap: wrap;
@@ -36,16 +47,30 @@
     list-style: none;
 }
 
-.menu li {
+nav li {
     margin-left: 10px;
  }
 
 .menu li a {
     display: block;
-    padding: 10px;
-    background-color: var(--cor0);
+    background-color: var(--cor1);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.352);
+    border-radius: 4px;
+    margin: 10px 10px;
+
     text-decoration: none;
     color: white;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: var(--fonte-titulo);
+    padding: 10px 15px;
+    
+ }
+
+ nav li > a:hover {
+    background-color: var(--cor3);
+    color: white;
+
  }
 
  main#guild {
@@ -60,14 +85,58 @@
     padding: 20px 30px;
 }
 
+#historia {
+    min-width: 200px;
+    max-width: 400px;
+    min-height: 500px;
+    text-align: justify;
+    background-color: rgba(211, 211, 211, 0.766);
+    padding: 0px 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.488);
+    margin-top: 20px;
+   
+}
+#historia h1 {
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.501);
+    font-variant: small-caps;
+    padding: 10px 30px;
+    margin: 0px -20px;
+    color: white;
+    background-color: var(--cor3);
+    border-radius: 10px 10px 0px 0px;
+    
+}
 
+#historia p {
+    font-family: var(--fonte-destaque);
+    padding: 10px 0px;
+    color: black;
+    text-indent: 20px;
+     
+}
 
+#historia a {
+    color: var(--cor2);
+    text-decoration: none;
+}
 
+#historia a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
+} 
 
-
-
-
-
+#historia h2 {
+    background-color: var(--cor3);
+    font-family: var(--fonte-destaque);
+    font-variant: small-caps;
+    color: white;
+    padding: 5px;
+    margin: 10px -20px;
+    text-align: center;
+}
 
 footer {
     min-height: 20px;
