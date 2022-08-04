@@ -159,6 +159,7 @@ nav li > a:hover {
     justify-content: space-between;
     padding: 20px;
     margin: auto;
+    align-items: center;
     
 }
 
@@ -175,6 +176,32 @@ aside.item {
 
 }
 
+aside.item-video {
+    min-height: 300px;
+    max-width: 600px;
+    min-width: 300px;
+    background-color: rgba(255, 255, 255, 0.37);
+    color: black;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
+    padding: 5px;
+    flex-basis: auto;
+    border-radius: 10px;
+    
+
+}
+
+div.video {
+    position: relative;
+    padding: 10px;
+    
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+}
+
+/**
 div.video {
     background-color: var(--cor5);
     min-width: 300px;
@@ -184,7 +211,6 @@ div.video {
 
     position: relative;
 }
-
 div.video > iframe {
     position: absolute;
     top: 5%;
@@ -193,6 +219,9 @@ div.video > iframe {
     height: 90%;
 
 }
+
+**/
+
 
 footer {
     min-height: 20px;
