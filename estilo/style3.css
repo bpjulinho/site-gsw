@@ -150,44 +150,75 @@ nav li > a:hover {
 }
 
 .content {
-    background-color: var(--cor1);
+    background-color: black;
     max-width: 1100px;
     min-width: 400px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px;
     margin: auto;
     align-items: center;
     
 }
 
-aside.item {
+aside.texto-war {
     min-height: 300px;
-    width: 400px;
-    background-color: rgba(255, 255, 255, 0.37);
-    color: black;
+    width: 50vh;
+    color: white;
     box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
     padding: 20px;
-    margin-bottom: 20px;
+    margin: 0px auto 20px auto;
     border-radius: 10px;
     flex-basis: auto;
+}
+
+.video-war { 
+    background-color: black;
+    min-height: 100%;
+    width: 80vh;
+    min-width: 50vh; 
+    margin: 0 auto;
+}
+
+.boxVideo {
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin: 0 auto;
+}
+.boxVideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/**
+aside.item-video {
+    width: 300px;
+    position: relative;
+    padding-bottom: 56.25%; 
+    padding-top: 25px;
+    height: 0;
+    margin:0 auto;
+    
+    
 
 }
 
-aside.item-video {
-    min-height: 300px;
-    max-width: 600px;
-    min-width: 300px;
-    background-color: rgba(255, 255, 255, 0.37);
-    color: black;
-    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.404);
-    padding: 5px;
-    flex-basis: auto;
-    border-radius: 10px;
-    
+figure {}
 
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 div.video {
@@ -199,9 +230,8 @@ div.video {
     width: auto;
     height: auto;
     background-size: cover;
-}
 
-/**
+
 div.video {
     background-color: var(--cor5);
     min-width: 300px;
